@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for ZML_C_CALCULATOR'
+define service ZML_UI_CALCULATOR_O4 {
+  expose ZML_C_CALCULATOR as Calculator;
+}

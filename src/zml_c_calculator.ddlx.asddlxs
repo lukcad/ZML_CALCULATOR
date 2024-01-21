@@ -1,0 +1,65 @@
+@Metadata.layer: #CORE
+@UI: {
+  headerInfo: {
+    typeName: 'Calculator', 
+    typeNamePlural: 'Calculators'
+  }
+}
+annotate view ZML_C_CALCULATOR with
+{
+  @UI.facet: [ {
+    id: 'idIdentification', 
+    type: #IDENTIFICATION_REFERENCE, 
+    label: 'Calculator', 
+    position: 10 
+  } ]
+  @UI.hidden: true
+  CalcUUID;
+  
+  @UI.lineItem: [ {
+    position: 10 , 
+    importance: #MEDIUM, 
+    label: 'OperandA'
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'OperandA'
+  } ]
+  OperandA;
+  
+  @UI.lineItem: [ {
+    position: 20 , 
+    importance: #MEDIUM, 
+    label: 'OperandB'
+  } ]
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'OperandB'
+  } ]
+  OperandB;
+  
+  @UI.lineItem: [ {
+    position: 30 , 
+    importance: #MEDIUM, 
+    label: 'Operator'
+  } ]
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'Operator'
+  } ]
+  Operator;
+  
+  @UI.lineItem: [ {
+    position: 40 , 
+    importance: #MEDIUM, 
+    label: 'CalcResult'
+  } ]
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'CalcResult'
+  } ]
+  CalcResult;
+  
+  @UI.hidden: true
+  LocalLastChangedAt;
+}
