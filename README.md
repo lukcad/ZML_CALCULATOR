@@ -3,7 +3,7 @@ RAP calculator app using `side effects`. This is implementation from Mikhail aft
 
 if you use latest version `SAP ABAP RAP` on your server or cloud SAP instance which includes `side effects` functionality you may wish understood how it is helpful for customer.
 
-Working wiht this calculator in edit mode (ususally you create new record of your calculations) you are able to see how the result will be changed after modification 3 fields:
+Working with this calculator in edit mode (ususally you create new record of your calculations) you are able to see how the result will be changed after modification 3 fields:
 
 * OperandA
 * OperandB
